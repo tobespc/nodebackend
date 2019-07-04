@@ -24,8 +24,8 @@ app.get('/api/v1/items', async function (req, res) {
     } 
 
   const options = {
-      hostname: 'docker.for.mac.localhost',
-      port: 32796,
+      hostname: 'grocerybackend',
+      port: 9080,
       path: '/api/v1/items',
       method: 'GET'
   }
